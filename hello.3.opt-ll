@@ -1,0 +1,61 @@
+; ModuleID = 'hello.ll'
+target datalayout = "e-p:64:64:64-S128-i1:8:8-i8:8:8-i16:16:16-i32:32:32-i64:64:64-f16:16:16-f32:32:32-f64:64:64-f128:128:128-v64:64:64-v128:128:128-a0:0:64-s0:64:64-f80:128:128-n8:16:32:64"
+target triple = "x86_64-unknown-linux-gnu"
+
+module asm "\09.ident\09\22GCC: (GNU) 4.7.1 LLVM: 3.3svn\22"
+
+@.cst = linker_private constant [15 x i8] c"Hellso world1!\00", align 8
+@.cst1 = linker_private constant [15 x i8] c"Hello world 2!\00", align 8
+@.cst2 = linker_private constant [18 x i8] c"Hello world 3!s /\00", align 8
+
+define i32 @main(...) unnamed_addr #0 {
+entry:
+  br label %"4.lr.ph"
+
+"4":                                              ; preds = %"4", %"4.lr.ph"
+  %indvars.iv5 = phi i32 [ %indvars.iv, %"4.lr.ph" ], [ %indvars.iv.next6, %"4" ]
+  %0 = phi i32 [ %8, %"4.lr.ph" ], [ %5, %"4" ]
+  %1 = phi i32 [ %7, %"4.lr.ph" ], [ %., %"4" ]
+  %2 = add i32 %0, %8
+  %3 = icmp sgt i32 %2, 0
+  %4 = select i1 %3, i32 %indvars.iv5, i32 0
+  %. = add i32 %1, %4
+  %5 = add i32 %0, 1
+  %indvars.iv.next6 = add i32 %indvars.iv5, 1
+  %exitcond = icmp eq i32 %indvars.iv.next6, %indvars.iv7
+  br i1 %exitcond, label %"9", label %"4"
+
+"9":                                              ; preds = %"4"
+  %6 = add i32 %8, 1
+  %indvars.iv.next = add i32 %indvars.iv, 2
+  %indvars.iv.next8 = add i32 %indvars.iv7, 1
+  %exitcond9 = icmp eq i32 %6, 200
+  br i1 %exitcond9, label %"11", label %"4.lr.ph"
+
+"4.lr.ph":                                        ; preds = %entry, %"9"
+  %indvars.iv7 = phi i32 [ 201, %entry ], [ %indvars.iv.next8, %"9" ]
+  %indvars.iv = phi i32 [ 0, %entry ], [ %indvars.iv.next, %"9" ]
+  %7 = phi i32 [ 0, %entry ], [ %., %"9" ]
+  %8 = phi i32 [ 0, %entry ], [ %6, %"9" ]
+  br label %"4"
+
+"11":                                             ; preds = %"9"
+  %9 = icmp sgt i32 %., 101
+  br i1 %9, label %"12", label %return
+
+"12":                                             ; preds = %"11"
+  %10 = call i32 (i8*, ...)* @printf(i8* noalias getelementptr inbounds ([15 x i8]* @.cst, i64 0, i64 0)) #1
+  %11 = call i32 (i8*, ...)* @printf(i8* noalias getelementptr inbounds ([15 x i8]* @.cst1, i64 0, i64 0)) #1
+  %12 = call i32 @puts(i8* getelementptr inbounds ([18 x i8]* @.cst2, i64 0, i64 0)) #1
+  br label %return
+
+return:                                           ; preds = %"11", %"12"
+  ret i32 undef
+}
+
+declare i32 @printf(i8* nocapture, ...) #1
+
+declare i32 @puts(i8* nocapture) #1
+
+attributes #0 = { nounwind uwtable }
+attributes #1 = { nounwind }

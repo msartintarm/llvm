@@ -1,0 +1,500 @@
+    7  g++ -o test_out test_prog.cpp
+    8  emacs -nw
+    9  emacs -nw test_prog.cpp
+   10  g++ -o test_out test_prog.cpp
+   11  emacs -nw test_prog.cpp
+   12  g++ -o test_out test_prog.cpp
+   13  emacs -nw test_prog.cpp
+   14  g++ -o test_out test_prog.cpp
+   15  ./test_out
+   16  g++ -o test_out test_prog.cpp
+   17  emacs -nw test_prog.cpp
+   18  g++ -o test_out test_prog.cpp
+   19  ./test_out
+   20  emacs -nw test_prog.cpp
+   21  ./test_out
+   22  emacs -nw test_prog.cpp
+   23  g++ -o test_out test_prog.cpp
+   24  ./test_out
+   25  emacs -nw test_prog.cpp
+   26  g++ -o test_out test_prog.cpp
+   27  emacs -nw
+   28  emacs -nw test_prog.cpp
+   29  g++ -o test_out test_prog.cpp
+   30  g++ -Wall -o test_out test_prog.cpp
+   31  g++ -Wall -o test_out test_prog.cpp
+   32  g++ -Wall -o test_out test_prog.cpp
+   33  g++ -o test_out test_prog.cpp
+   34  rm -rf test_out
+   35  g++ -Wall -o test_out test_prog.cpp
+   36  emacs -nw git-config.sh
+   37  ./git-config.sh
+   38  chmod +x git-config.sh
+   39  ./git-config.sh
+   40  git status
+   41  mg git-config.sh applet-interface/
+   42  mv git-config.sh applet-interface/
+   43  cd applet-interface/
+   44  ./git-config.sh 
+   45  git status
+   46  pwd
+   47  emacs -nw
+   48  ls
+   49  git status
+   50  git add git-config.sh
+   51  git diff
+   52  git commit -am "brought case study 2 interface up to speed"
+   53  git push
+   54  ls
+   55  cp case2.html case1.html
+   56  cp case2.js case1.js
+   57  git status
+   58  git add case1.html
+   59  git add case1.js
+   60  git commit -am "copied case study 2 to cse study 1"
+   61  git push
+   62  emacs -nw
+   63  emacs -nw
+   64  fg
+   65  exit
+   66  cd ~/applet
+   67  git pull
+   68  ls
+   69  pwd
+   70  cd javascript_gams/
+   71  ls
+   72  emacs -nw example.js 
+   73  exit
+   74  cd applet
+   75  ./run.sh
+   76  chmod +x run.sh
+   77  ./run.sh
+   78  ls
+   79  cat run.sh
+   80  git pull
+   81  git status
+   82  git diff
+   83  git commit -am "beginning to integrate Java into Javascript"
+   84  git pull
+   85  ./run.sh
+   86  ls
+   87  git pull
+   88  ./run.sh
+   89  ls
+   90  ls org
+   91  ls org/neos/client/
+   92  exit
+   93  g++ -Wall -o test_prog test_prog.cpp
+   94  g++ -Wall -o test_prog test_prog.cpp
+   95  ./test_prog
+   96  ./test_prog
+   97  ./test_prog
+   98  ./test_prog
+   99  g++ -Wall -o test_prog test_prog.cpp
+  100  g++ -Wall -o test_prog test_prog.cpp
+  101  ./test_prog
+  102  g++ -Wall -o test_prog test_prog.cpp
+  103  ./test_prog
+  104  g++ -Wall -o test_prog test_prog.cpp
+  105  ./test_prog
+  106  XXXXX
+  107  X   X
+  108  X   X
+  109  XXXXX
+  110  XXXXX
+  111  X   X
+  112  X   X
+  113  XXXXX
+  114  XXXXX
+  115  X   X
+  116  X   X
+  117  XXXXX
+  118  g++ -Wall -o test_prog test_prog.cpp
+  119  g++ -Wall -o test_prog test_prog.cpp
+  120  ./test_prog
+  121  g++ -Wall -o test_prog test_prog.cpp
+  122  ./test_prog
+  123  ./test_prog
+  124  ./test_prog
+  125  g++ -Wall -o test_prog test_prog.cpp
+  126  ./test_prog
+  127  g++ -Wall -o test_prog test_prog.cpp
+  128  ./test_prog
+  129  exit
+  130  cd ilp-scheduler_full/
+  131  ./run-gams.sh
+  132  chmod +x run-gams.sh
+  133  ./run-gams.sh
+  134  ./run-gams.sh =h trips4x4.gms
+  135  ./run-gams.sh -h trips4x4.gms
+  136  ./run-gams.sh -h trips4x4.gms -s tripsDAG-too-large.gms
+  137  cp work/solve.gms grab.sh
+  138  chmod +x grab.sh
+  139  ./grab.sh
+  140  ./grab.sh
+  141  git status
+  142  ls
+  143  pwd
+  144  g++ -Wall -o test_prog test_prog.cpp
+  145  ./test_prog
+  146  gc -Wall -o test_prog test_prog.cpp
+  147  gcc -Wall -o test_prog test_prog.cpp
+  148  gcc -Wall -o test_prog test_prog.cpp
+  149  g++ -Wall -o test_prog test_prog.cpp
+  150  g++ -Wall -o test_prog test_prog.cpp
+  151  g++ -Wall -o test_prog test_prog.cpp
+  152  gcc -Wall -o test_prog test_prog.cpp
+  153  gcc -Wall -o test_prog test_prog.cpp
+  154  gcc -Wall -o test_prog test_prog.cpp
+  155  g++ -Wall -o test_prog test_prog.cpp
+  156  ./test_prog
+  157  ./test_prog
+  158  g++ -Wall -o test_prog test_prog.cpp
+  159  ./test_prog
+  160  ./test_prog
+  161  ./test_prog
+  162  ./test_prog
+  163  ./test_prog
+  164  ./test_prog
+  165  ./test_prog
+  166  rm /u/s/a/sartin-t/.config/google-chrome/SingletonLock
+  167  exit
+  168  git clone https://msartintarm@github.com/msartintarm/ilp-applet 
+  169  cd ilp-applet/
+  170  ./run.sh
+  171  chmod +x run.sh
+  172  ./run.sh
+  173  ./run.sh
+  174  emacs -nw run.sh
+  175  ./run.sh\
+  176  ./run.sh
+  177  uname
+  178  emacs -nw case3.html
+  179  git status
+  180  git diff
+  181  git commit -am "fixed 'bug'. Chrome ignores applets with width / height 0."
+  182  git push
+  183  emacs -nw run.sh
+  184  ./run.sh
+  185  emacs -nw run.sh
+  186  ./run.sh
+  187  emacs -nw run.sh
+  188  git status
+  189  git diff
+  190  exit
+  191  cd ilp-applet/
+  192  ./run.sh
+  193  ./run.sh
+  194  ./run.sh
+  195  cat eclipse/manifest_general.txt 
+  196  ./run.sh
+  197  ls -l eclipse
+  198  ls -l eclipse
+  199  ls -l eclipse/slib
+  200  cat eclipse/manifest_general.txt 
+  201  exit
+  202  cp /u/n/i/nilay/public/Architecture/Optimization/network_design/combined_design/src case_3
+  203  cp -r /u/n/i/nilay/public/Architecture/Optimization/network_design/combined_design/src case_3
+  204  rm  /u/s/a/sartin-t/.config/google-chrome/SingletonLock 
+  205  cd ~
+  206  git clone https://msartintarm@github.com/msartintarm/online_game gamez
+  207  php
+  208  python -m SimpleHTTPServer
+  209  ls
+  210  cd applet
+  211  git status
+  212  git diff HEAD~1
+  213  git checkout -b actual_branch origin/master
+  214  git pull
+  215  ls
+  216  cd src
+  217  ./run.sh
+  218  emacs -nw run.sh
+  219  ./run.sh
+  220  ls bin
+  221  ls
+  222  git log
+  223  mkdir bin
+  224  ls
+  225  rm -r bin
+  226  cd ..
+  227  ls
+  228  ls bin
+  229  ls bin/
+  230  less bin
+  231  emacs -nw src/run.sh
+  232  cd src
+  233  ./run.sh
+  234  cd ..
+  235  rm bin
+  236  mkdir bin
+  237  cd src
+  238  ./run.sh
+  239  ls ../bin
+  240  cd ..
+  241  emacs -nw case3.js
+  242  cp case2.js case4.js
+  243  cp case2.html case4.html
+  244  emacs -nw case4.html
+  245  exit
+  246  cd applet
+  247  cd src
+  248  ./run.sh
+  249  ./run.sh
+  250  git diff
+  251  ./run.hs
+  252  ./run.sh
+  253  ./run.sh
+  254  ./run.sh
+  255  ssh Venus.cs.wisc.edu
+  256  ssh sartin-t@Venus.cs.wisc.edu
+  257  ssh sartin-t@venus.cs.wisc.edu
+  258  ls /u/s/a/sartin-t/.ssh/known_host
+  259  ls /u/s/a/sartin-t/.ssh/known_host/
+  260  ls /u/s/a/sartin-t/.ssh/known_hosts
+  261  emac s-nw /u/s/a/sartin-t/.ssh/known_hosts
+  262  emacs -nw /u/s/a/sartin-t/.ssh/known_hosts
+  263  emacs -nw /etc/ssh/ssh_known_hosts
+  264  emacs -nw /etc/ssh/ssh_known_hosts
+  265  emacs -nw /etc/ssh/ssh_known_hosts
+  266  git grep -n "submit_toggle"
+  267  cd ..
+  268  git grep -n "submit_toggle"
+  269  git status
+  270  git diff
+  271  git commit -am "Consolidating code into a single NEOS file."
+  272  git push
+  273  git status
+  274  git fetch
+  275  git status
+  276  git pull
+  277  pwd
+  278  rm case4.html case4.js
+  279  git pull
+  280  emacs -nw src/run.sh
+  281  src/run.sh
+  282  git log
+  283  emacs -nw case1.js
+  284  git pull
+  285  git diff
+  286  git commit -am "Linux-specific change"
+  287  git pull
+  288  emacs -nw src/case1/anytol.bb10.i.gamsbb 
+  289  emacs -nw src/case1/ise.gms
+  290  src/run.sh
+  291  src/run.sh
+  292  emacs -nw src/case1/ise.gms
+  293  src/run.sh
+  294  emacs -nw src/run.sh
+  295  ls
+  296  cd ~
+  297  ls
+  298  pwd
+  299  cd applet
+  300  ls
+  301  git log
+  302  emacs -nw src/case1/ise.gms
+  303  src/run.sh
+  304  emacs -n src/run.sh 
+  305  emacs -nw src/run.sh
+  306  src/run.sh
+  307  emacs -nw case1.html
+  308  git statuas
+  309  git status
+  310  git diff
+  311  git commit -am "Added method that selectively colors the case 1 DAGs. Case 1 output works. Enabled expansion of solver status, output, and solution."
+  312  git push
+  313  emacs -nw src/NeosClient/Neos.java 
+  314  git diff
+  315  git commit -am "parsing case 1 solution."
+  316  git push
+  317  exit
+  318  emacs -nw applet/src/case1/ise.gms 
+  319  src/run.sh
+  320  cd applet
+  321  src/run.sh
+  322  git checkout HEAD~1 src/NeosClient/Neos.java 
+  323  src/run.sh
+  324  emacs -nw src/case1/ise.gms 
+  325  src/run.sh
+  326  emacs -nw src/case1/ise.gms 
+  327  src/run.sh
+  328  git status
+  329  git diff
+  330  emacs -nw src/case1/ise.gms 
+  331  exit
+  332  emacs -nw
+  333  git fetch
+  334  cd applet
+  335  git fetch
+  336  git status
+  337  git diff
+  338  src/run.sh
+  339  emacs -nw case1.js
+  340  git diff
+  341  git commit -am "Added 'expand' button to all 4 cases"
+  342  git push
+  343  emacs -nw case1.js
+  344  git diff
+  345  git commit -am "case 1 now shows DAGs."
+  346  git push
+  347  git clone https://msartintarm@github.com/msartintarm/online_game/demo.html online_game
+  348  git clone https://msartintarm@github.com/msartintarm/online_game online_game
+  349  src/run.sh
+  350  cd ~/applet
+  351  src/run.sh
+  352  src/run.sh
+  353  src/run.sh
+  354  cd applet
+  355  ls
+  356  git status
+  357  git log
+  358  emacs -nw src/run.sh
+  359  pwd
+  360  fs lq
+  361  cd /scratch/
+  362  ls
+  363  df -h
+  364  users
+  365  mkdir sartin-t
+  366  cd sartin-t/
+  367  ls
+  368  pwd
+  369  mkdir work
+  370  cd work/
+  371  git clone file:///p/vertical/projects/dyser/svn/buildscripts.git/
+  372  ls
+  373  cd buildscripts/
+  374  ls
+  375  ls -al
+  376  ./build.sh 
+  377  ls
+  378  vi .build-all-config.sh
+  379  emacs .build-all-config.sh
+  380  ./build.sh 
+  381  less .build-all-config.sh
+  382  ./build.sh 
+  383  export PATH=/unsup/gperf/amd64_rhel6/bin/:/unsup/qt-4.8.0/bin/:$PATH
+  384  ./build
+  385  ./build.sh 
+  386  rm -Rf ../install/dytools/
+  387  ./build.sh 
+  388  ls
+  389  pwd
+  390  fs lq
+  391  exit
+  392  cd /scratch/sartin-t/work/
+  393  ls
+  394  pwd
+  395  mkdir test
+  396  cd test/
+  397  mkdir hello
+  398  cd hello/
+  399  emacs hello.c &
+  400  fg
+  401  gcc -o hello.out hello.c
+  402  ./hello.out 
+  403  gcc -o hello.out hello.c -v
+  404  gcc -o hello.out hello.c -v -save-temps
+  405  clear
+  406  gcc -o hello.out hello.c -v -save-temps
+  407  ls
+  408  exit
+  409  ls
+  410  git status
+  411  cd llvm
+  412  pwd
+  413  cd src
+  414  cd llvm
+  415  git status
+  416  git log | grep venkat
+  417  git log | grep -B 3 -A 2
+  418  git log | grep -B 3 -A 2 venkat
+  419  git log | grep -B 2 -A 4
+  420  git log | grep -B 2 -A 4 venkat
+  421  git diff c1a6283 c1a6283~1
+  422  git diff c1a6283~1 c1a6283
+  423  git diff c1a6283 c1a6283~1
+  424  git diff c1a6283 c1a6283~1
+  425  git log | grep dyser
+  426  git log | grep DySER
+  427  pwd
+  428  ls
+  429  less CODE_OWNERS.TXT 
+  430  cd lib/Target/
+  431  ls
+  432  git log | grep venkat
+  433  git log | grep venkat -A 4
+  434  git log | grep venkat -A 3
+  435  git log | grep venkat -A 2
+  436  git log | grep venkat -A 3
+  437  git log | grep venkat -A 4
+  438  git log | grep venkat -A 4 >& grepz.txt
+  439  emacs -nw grepz.txt
+  440  pwd
+  441  ls
+  442  cd X86/
+  443  pwd
+  444  ls
+  445  emacs -nw README.txt 
+  446  git grep aedag
+  447  git grep aeDAG
+  448  git grep AEDAG
+  449  ls Utils/
+  450  ls TargetInfo/
+  451  ls Disassembler/
+  452  ls InstPrinter/
+  453  ls AsmParser/
+  454  emacs -nw X86ISelDAGToDAG.cpp 
+  455  git grep convex
+  456  emacs -nw X86ISelDAGToDAG.cpp 
+  457  git grep setBaseReg
+  458  exit
+  459  cd /scratch/sartin-t/work/
+  460  git status
+  461  svn status
+  462  cd src/lib/Target
+  463  pwd
+  464  cd src/llvm/lib/Target/
+  465  pwd
+  466  ls
+  467  cd Sparc/
+  468  ls
+  469  emacs -nw SparcInstrInfo.h
+  470  cd /scratch/sartin-t/work/
+  471  ls
+  472  cd test/
+  473  ls
+  474  cd hello/
+  475  ls
+  476  rm *.i *.o *.s *.out
+  477  ls
+  478  pwd
+  479  /scratch/sartin-t/work/install/gcc/bin/gcc -fplugin=/scratch/sartin-t/work/install/dg/x86/dragonegg.so hello.c -o hello.out
+  480  ls
+  481  ./hello.out 
+  482  /scratch/sartin-t/work/install/gcc/bin/gcc -fplugin=/scratch/sartin-t/work/install/dg/x86/dragonegg.so hello.c -o hello.s -S -flto -O3
+  483  /scratch/sartin-t/work/install/llvm/bin/opt 
+  484  ls
+  485  /scratch/sartin-t/work/install/gcc/bin/gcc -fplugin=/scratch/sartin-t/work/install/dg/x86/dragonegg.so hello.c -o hello.s -S -flto 
+  486  /scratch/sartin-t/work/install/gcc/bin/gcc -fplugin=/scratch/sartin-t/work/install/dg/x86/dragonegg.so hello.c -o hello.ll -S -flto 
+  487  /scratch/sartin-t/work/install/llvm/bin/opt hello.ll -o hello.opt.ll -S
+  488  /scratch/sartin-t/work/install/llvm/bin/opt hello.ll -o hello.opt.ll -S -O3
+  489  /scratch/sartin-t/work/install/llvm/bin/llc hello.opt.ll -o hello.opt.s
+  490  /scratch/sartin-t/work/install/gcc/bin/gcc -fplugin=/scratch/sartin-t/work/install/dg/x86/dragonegg.so hello.c -o hello.ll -S -flto 
+  491  /scratch/sartin-t/work/install/llvm/bin/opt hello.ll -o hello.opt.ll -S -O3
+  492  /scratch/sartin-t/work/install/llvm/bin/llc hello.opt.ll -o hello.opt.s
+  493  /scratch/sartin-t/work/install/gcc/bin/gcc -o hello.opt.out hello.opt.s
+  494  ./hello.opt.out 
+  495  /scratch/sartin-t/work/install/gcc/bin/gcc -o hello.opt.o hello.opt.s -c
+  496  ssh venkatra@puck
+  497  ssh venus
+  498  ssh rigel
+  499  exit
+  500  b
+  501  cd /scratch/sartin-t/work/install/gcc/scratch/sartin-t/work/install/gcc
+  502  mkdir llvm
+  503  cd llvm
+  504  emacs -nw run.sh
+  505  history
+  506  history >& history.txt
