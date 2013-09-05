@@ -3,8 +3,10 @@
 # Path to top level of LLVM hierarchy
 LEVEL = ../../..
 
+LLVM_OBJ_ROOT = /scratch/sartin-t/work/obj/llvm
+
 # Name of the library to build
-LIBRARYNAME = Hello
+LIBRARYNAME = PluginMST
 
 # Make the shared library become a loadable module so the tools can
 # dlopen/dlsym on the resulting library.

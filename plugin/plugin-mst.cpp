@@ -26,8 +26,8 @@ namespace {
   }; // end of struct Hello
 }  // end of anonymous namespace
 
-char Hello::ID = 0;
+char OptMST::ID = 0;
 
 // Command-line arg; name;
 // does the pass leave CFG untouched?; is it an analysis pass?
-static RegisterPass<Hello> X("mst", "Michael Sartin-Tarm's Pass", false, false);
+static RegisterPass<OptMST> X("mst", "Michael Sartin-Tarm's Pass", false, false);
