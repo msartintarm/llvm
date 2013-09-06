@@ -4,6 +4,7 @@
 LEVEL = ../../..
 
 LLVM_OBJ_ROOT = /scratch/sartin-t/work/obj/llvm
+LLVM_SRC_ROOT = /scratch/sartin-t/work/src/llvm
 
 # Name of the library to build
 LIBRARYNAME = PluginMST
