@@ -43,6 +43,6 @@ ayz: $(AYZFILES)
 create-plugin: $(PLUGINFILE)
 	rm -rf $(PLUGINDIR)
 	cp -r plugin $(PLUGINDIR)
-	cd $(PLUGINDIR); gmake
+	gmake -C $(PLUGINDIR)
 
 clean: ; rm -f *.ll *.opt-ll *.ayz-ll *.s *.out
